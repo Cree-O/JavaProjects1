@@ -5,11 +5,12 @@ import javax.swing.JOptionPane;
 /**
  * Created by christopherorlik on 11/6/16.
  * CMSC 1513
+ * 
  * This program is supposed to collect user input of integer and create the pattern with numbers
  */
 public class NumberPattern {
     public static void main(String[] args) {
-
+    	// numberpattern main
         // Obtain input
         String nString = JOptionPane.showInputDialog(null, "Enter an integer to create pattern:");
         int n = Integer.parseInt(nString);
