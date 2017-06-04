@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  */
 public class NumberPattern {
     public static void main(String[] args) {
-    	// numberpattern main
+    	// numberpattern main ignore//
         // Obtain input
         String nString = JOptionPane.showInputDialog(null, "Enter an integer to create pattern:");
         int n = Integer.parseInt(nString);
